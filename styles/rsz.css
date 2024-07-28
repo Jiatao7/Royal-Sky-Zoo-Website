@@ -1,0 +1,147 @@
+.background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+}
+
+.b-img{
+    filter: brightness(80%);
+}
+
+/* Styling for follow page */
+.content-follow{
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+#follow{
+    font-size: 10vh;
+    font-weight: bolder;
+    color: LimeGreen;
+    text-shadow: 2px 2px 3px green;
+    line-height: 1.5;
+}
+
+#social-media{
+    font-size: 4vh;
+    font-weight: bold;
+    color: LimeGreen;
+}
+
+.sm-icon{
+    width: 10%;
+}
+
+.sm-icon img{
+    width: 100%;
+    height: 100%;
+    transition: filter 1s, transform 2s;
+}
+
+.sm-icon img:hover{
+    filter: brightness(150%) hue-rotate(-90deg);
+    transform: scale(1.2);
+}
+
+#icon-1{
+    position: absolute;
+    left: 80%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#icon-2{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);   
+}
+
+#icon-3{
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Styling for rating page */
+.content-rating{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.rating.disabled{
+    pointer-events: none;
+}
+
+.rating{
+    display: flex;
+}
+
+.rating i{
+    padding: 10px;
+    font-size: 40px;
+    flex-grow: 1;
+}
+
+.rating i{
+    color: grey;
+    cursor: pointer;
+}
+
+/* All 5 stars turn yellow on hover */
+.rating:hover i{
+    color: yellow;
+}
+
+/* Stars subsequent to the hovered star turn grey */
+.rating i:hover ~ i{
+    color: grey; !important
+}
+
+
+.rating i.active{
+    color: yellow; !important
+}
+
+
+/* Styling for about page */
+#mission p{
+    font-size: 20px;
+}
+
+.stat{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.number{
+    color: LimeGreen;
+    font-weight: bold;
+}
+
+/* Styling for donate page */
+.o-logo{
+    opacity: 0.5;
+    transition: 1s;
+    width: 80%;
+}
+
+.o-logo:hover{
+    opacity: 1;
+    transform: scale(1.25);
+    transition: 1s;
+}

@@ -1,0 +1,52 @@
+/* css file for home page */
+
+.c-img{
+    width: 100%;
+    height: 105vh;
+    object-fit: cover;
+}
+
+.carousel-item h5{
+    font-size: 48px;
+    font-weight: 550;
+}
+
+.btn-carousel{
+    font-size: 28px!important
+}
+
+.carousel-item p{
+    font-size: 30px;
+}
+
+.section-img{
+    aspect-ratio: 5/3
+}
+
+
+main .row{
+    height: 70vh;
+    position: relative;
+}
+
+.col-7{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.col-5{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right{
+    right: 0%;
+}
+
+.left{
+    left: 0%;
+}

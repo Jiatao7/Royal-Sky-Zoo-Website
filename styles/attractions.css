@@ -1,0 +1,62 @@
+#attractions .card-img-top{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+#attractions .card img{
+    transition: filter 1s;
+}
+
+#attractions .card:hover img{
+    filter: brightness(125%);
+}
+
+#attractions .btn{
+    font-size: 18px;
+    color: white;
+    background-color: #4CB963;
+}
+
+
+.dropdown-btn{
+    font-size: 20px;
+    color: white;
+    background-color: #4CB963;
+}
+
+.dropdown-btn:hover{
+    color: white;
+    filter: brightness(90%);
+}
+
+.schedule{
+    font-size: 20px;
+    color: #70B77E;
+    text-decoration: bold;
+}
+
+.ride-img{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+}
+
+.garden-img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    transition: filter 1s;
+}
+
+.garden-img:hover{
+    filter: brightness(125%);
+}
+
+li{
+    font-size: 18px;
+}
+
+.description{
+    line-height: 1.5;
+}
